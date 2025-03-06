@@ -19,7 +19,6 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 ### 🔹 Key AWS Services Used
 - **Amazon EKS** - Fully managed Kubernetes service for container orchestration.
 - **Amazon ECR** - Storing and managing Docker container images.
-- **AWS Fargate** - Serverless Kubernetes nodes.
 - **Amazon RDS (MySQL)** - Managed relational database for persistent data storage.
 - **Amazon Route 53** - Managing domain and DNS resolution.
 - **Network Load Balancer (NLB)** - Distributing traffic across Kubernetes pods.
@@ -67,7 +66,6 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 ✅ **Scalable & Highly Available** - EKS scales pods dynamically based on traffic.  
 ✅ **Automated Deployment & Management** - Terraform + Kubernetes ensures repeatability.  
 ✅ **Secure & Efficient** - IAM, Secrets Manager, and security best practices.  
-✅ **Optimized Performance** - Managed services reduce operational overhead.  
-✅ **Cost-Effective** - Serverless Fargate nodes eliminate EC2 management.  
+✅ **Optimized Performance** - Managed services reduce operational overhead.   
 
 ---
