@@ -1,4 +1,4 @@
-# 🚗 RentZone - Kubernetes-based Deployment on AWS with Amazon EKS
+Kubernetes-based Deployment on AWS with Amazon EKS
 
 ## 📌 Project Overview
 
