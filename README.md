@@ -35,9 +35,9 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 
 ## 🚀 What I Did
 
-1️⃣ **Provisioned an Amazon EKS Cluster using Terraform**  
+1️⃣ **Provisioned an Amazon EKS Cluster**  
 - Created an **EKS Cluster** with multiple worker nodes.  
-- Configured **IAM roles and Kubernetes RBAC** for access control.  
+- Configured **IAM roles** for access control.  
 
 2️⃣ **Containerized the Application with Docker & Pushed to ECR**  
 - Built **Docker images** for application services.  
