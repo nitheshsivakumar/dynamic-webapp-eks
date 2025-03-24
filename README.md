@@ -29,7 +29,7 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 - **Amazon CloudWatch** - Monitoring logs and application metrics.
 
 📌 **Reference Architecture:**  
-![Architecture](eks.png)
+![Architecture](eks-architecture.png)
 
 ---
 
