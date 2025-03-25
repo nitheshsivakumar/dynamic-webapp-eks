@@ -2,7 +2,7 @@ Kubernetes-based Deployment on AWS with Amazon EKS
 
 ## 📌 Project Overview
 
-This project deploys the **RentZone car rental application** on **AWS using Amazon Elastic Kubernetes Service (EKS)** for scalable, containerized workloads. It leverages **Terraform for infrastructure provisioning**, **Amazon ECR for container storage**, and **EKS for Kubernetes-based orchestration**. 
+This project deploys the **RentZone car rental application** on **AWS using Amazon Elastic Kubernetes Service (EKS)** for scalable, containerized workloads. It leverages, **Amazon ECR for container storage**, and **EKS for Kubernetes-based orchestration**. 
 
 ## 🎯 Problem Solved
 
