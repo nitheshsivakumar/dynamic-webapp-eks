@@ -62,8 +62,7 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 
 ## 📊 Key Benefits
 
-✅ **Scalable & Highly Available** - EKS scales pods dynamically based on traffic.  
-✅ **Automated Deployment & Management** - Terraform + Kubernetes ensures repeatability.  
+✅ **Scalable & Highly Available** - EKS scales pods dynamically based on traffic.   
 ✅ **Secure & Efficient** - IAM, Secrets Manager, and security best practices.  
 ✅ **Optimized Performance** - Managed services reduce operational overhead.   
 
