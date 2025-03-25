@@ -48,7 +48,7 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 - Configured **Horizontal Pod Autoscaling (HPA)** for dynamic scaling.  
 
 4️⃣ **Integrated Load Balancer & Networking**  
-- Deployed a **Network Load Balancer (NLB)** for external traffic routing.  
+- **Network Load Balancer (NLB)** for external traffic routing.  
 - Configured **Amazon Route 53** for domain mapping.  
 
 5️⃣ **Implemented Secure Database Connectivity**  
@@ -57,7 +57,6 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 
 6️⃣ **Enabled Observability & Monitoring**  
 - Integrated **CloudWatch for logs and metrics collection**.  
-- Used **Kubernetes logging and Prometheus monitoring** for real-time insights.  
 
 ---
 
