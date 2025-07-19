@@ -43,8 +43,8 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 - Built **Docker images** for application services.  
 - Stored images in **Amazon ECR** for versioned deployment.  
 
-3️⃣ **Deployed Microservices on Kubernetes**  
-- Defined **Kubernetes Deployments, Services, and Ingress** for managing pods.  
+3️⃣ **Deployed on Kubernetes**  
+- Defined **Kubernetes Deployments, Services** for managing pods.  
 - Configured **Horizontal Pod Autoscaling (HPA)** for dynamic scaling.  
 
 4️⃣ **Integrated Load Balancer & Networking**  
@@ -54,9 +54,6 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 5️⃣ **Implemented Secure Database Connectivity**  
 - Used **Amazon RDS (MySQL) with Multi-AZ** for database reliability.  
 - Managed database credentials securely using **AWS Secrets Manager**.  
-
-6️⃣ **Enabled Observability & Monitoring**  
-- Integrated **CloudWatch for logs and metrics collection**.  
 
 ---
 
