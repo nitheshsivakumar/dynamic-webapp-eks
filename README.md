@@ -45,7 +45,6 @@ This project deploys the **RentZone car rental application** on **AWS using Amaz
 
 3️⃣ **Deployed on Kubernetes**  
 - Defined **Kubernetes Deployments, Services** for managing pods.  
-- Configured **Horizontal Pod Autoscaling (HPA)** for dynamic scaling.  
 
 4️⃣ **Integrated Load Balancer & Networking**  
 - **Network Load Balancer (NLB)** for external traffic routing.  
