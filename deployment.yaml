@@ -1,35 +1,35 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: apps/v1  # API version for Deployments in Kubernetes
+kind: Deployment  # Declares this as a Deployment object
 metadata:
-  name: rentzone-deployment
-  namespace: rentzone
+  name: rentzone-deployment  # Name of the Deployment
+  namespace: rentzone  # Namespace where the deployment will be created
   labels:
-    app: rentzone
+    app: rentzone  # Labels used to identify and group related resources
 spec:
-  replicas: 1
+  replicas: 1  # Number of pod replicas to maintain
   selector:
     matchLabels:
-      app: rentzone
+      app: rentzone  # Used to match the pods managed by this deployment
   template:
     metadata:
       labels:
-        app: rentzone
+        app: rentzone  # Labels for the pod template
     spec:
-      serviceAccountName: rentzone-service-account
+      serviceAccountName: rentzone-service-account  # Specifies the service account used by the pod
       volumes:
-      - name: secrets-store-inline
+      - name: secrets-store-inline  # Defines a volume to mount secrets from AWS Secrets Manager
         csi:
-          driver: secrets-store.csi.k8s.io
-          readOnly: true
+          driver: secrets-store.csi.k8s.io  # CSI driver to pull secrets from a provider like AWS
+          readOnly: true  # Ensures secrets are read-only
           volumeAttributes:
-            secretProviderClass: "rentzone-secret"
+            secretProviderClass: "rentzone-secret"  # Links the volume to a SecretProviderClass
       containers:
-      - name: rentzone
-        image: 545009830074.dkr.ecr.us-east-1.amazonaws.com/rentzone:latest
-        imagePullPolicy: Always
+      - name: rentzone  # Name of the container
+        image: 545009830074.dkr.ecr.us-east-1.amazonaws.com/rentzone:latest  # Image from AWS ECR
+        imagePullPolicy: Always  # Always pull the latest image
         ports:
-        - containerPort: 80
+        - containerPort: 80  # Exposes port 80 inside the container
         volumeMounts:
-        - name: secrets-store-inline
-          mountPath: "/mnt/secrets-store"
-          readOnly: true
+        - name: secrets-store-inline  # Mounts the secret volume
+          mountPath: "/mnt/secrets-store"  # Mount path inside the container
+          readOnly: true  # Mounted as read-only
